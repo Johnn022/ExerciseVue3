@@ -21,7 +21,6 @@
 </template>
 
 <script setup>
-//  import axios from 'axios';
 import {ref} from 'vue'
 
 const open= ref(false)
@@ -37,24 +36,6 @@ const tags=[
 const menuOpen=()=>{
     open.value=!open.value
 }
-
-// export default {
-//     name: 'DashboardPage',
-//    components: {
-//      LayoutDiv,
-//    },
-//    data() {
-//      return {
-//        user: {},
-//      };
-//    },
-//   methods: {
-//     greeting() {
-//       return 'Hello there'
-//     }
-//   }
-//}
-
 
 </script>
 

@@ -1,28 +1,3 @@
-<!-- <template>
-    <layout-div>
-       <div class="row justify-content-md-center">
-         <div class="col-12">
-             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                 <div class="container-fluid">
-                     <a class="navbar-brand" href="#">Dashboard</a>
-                     <div class="d-flex">
-                         <ul class="navbar-nav">
-                             <li class="nav-item">
-                                 <a @click="logoutAction()" class="nav-link " aria-current="page" href="#">Logout</a>
-                             </li>
-                             <li class="nav-item">                                 
-                                 <router-link to="/offer" class="nav-link">Offers</router-link>
-                             </li>
-                         </ul>
-                     </div>                     
-                 </div>
-             </nav>
-             <h2 class="text-center mt-5">Welcome, {{user?.name}}!</h2  >
-         </div>
-       </div>
-    </layout-div>
- </template> -->
-
  <template>
   <div class="bg-gray-900 text-white py-4 md:flex md:items-center justify-between px-4">    
       <div class="logo text-2xl font-bold text-white cursor-pointer">
@@ -53,7 +28,6 @@
  <script>
  import axios from 'axios';
  import LayoutDiv from '../LayoutDiv.vue';
-//  import logofull from '../../assets/logo_full.svg'
    
  export default {
    name: 'DashboardPage',
